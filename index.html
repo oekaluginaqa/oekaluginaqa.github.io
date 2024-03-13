@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Следующий мета тег "viewport" очень важен для правильного отображения "отзывчивых сайтов" на разных устройствах.
+      Браузеры хотят быть очень услужливыми и пытатться помочь нам, отображая сайты совсем не так, как нужно.
+      Совсем как "Двое из ларца"
+
+      Например - попытаться отобразить всю страницу разом, хотя она должна прокручиваться на 10 экранов,
+      или увеличить шрифт непонятным образом, когда мы переворачиваем телефон горизонтально 
+      1. width=device-with - говорит браузеру "дружище, ширина моей страницы ровно такая, какой ширины твой экран.
+      Не надо ничего подгонять, я сам этим займусь"
+      2. initial-scale=1 - говорит браузеру "не вздумай ничего приближать/отдалять по своему усмотрению, я сам
+      озабочусь тем, чтобы при разной ширине всё отображалось хорошо"
+
+      https://www.w3schools.com/css/css_rwd_viewport.asp
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+       <!--
+    Тайтл отобржается как название закладки в барузере
+    -->
+    <title>Ольга</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" sizes="any" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="name">ОЛЬГА КАЛУГИНА</div>
+    <img src="2024-03-13_11-22-24.png" height="600px" width="400px"/>
+
+    <div class="block">
+      <div class="block-title">ВСЕМ ПРИВЕТ!</div>
+      <div class="block-entries">
+        <div class="entry">
+          <a href="https://t.me/oekalugina" target="_blank"> telegram</a>
+        </div>
+        <div class="entry">
+          <a href="mailto:oekalugina@yandex.ru">E-mail</a>
+        </div>
+     <div class="entry">
+          <a href="https://vk.com/kalugina_ola" target="_blank">ВКонтакте</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-title">чем занимаюсь</div>
+     <div class="entry">
+        <div class="HoReCa"> 10 лет опыта в сфере HoReCa </div>
+      </div>
+      <div class="entry">
+        <div class="HoReCa"> живу на 2 города - Екб и Курск </div>
+      </div>
+      <div class="entry">
+      <div class="entry">
+        <a href="https://qa.studio/" target="_blank">
+          сейчас учусь на тестировщика в QA studio
+        </a>
+      </div>
+      
+      </div>
+    </div>
+  </body>
+</html>
